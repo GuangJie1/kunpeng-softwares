@@ -3,7 +3,7 @@
    "Type":"conda",
    "Base":"openEuler-24.03-LTS-SP1",
    "Date":"2025-03-27 13:40:06",
- "Packages":[
+   "Packages":[
       {
          "package":"sd-dna",
          "version":"1.1.1",
