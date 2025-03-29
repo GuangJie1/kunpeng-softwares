@@ -1,0 +1,14 @@
+emu
+gzip
+isa-l
+lapack
+libdrm
+lz4
+openblas
+openmpi
+snappy
+x264
+x265
+zlib-ng
+zlib
+zstd
