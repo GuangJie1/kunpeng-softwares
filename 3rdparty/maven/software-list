@@ -1,0 +1,38 @@
+opendjk-1.8.0:
+    libyuv-android:
+        path: https://github.com/crow-misia/libyuv-android
+        install: ./gradle build
+    tez:
+        path: https://github.com/apache/tez
+        install: mvn install -DskipTests
+    presto:
+        path: https://github.com/prestodb/presto
+        install: mvn install -DskipTests
+    livy:
+        path: https://github.com/apache/incubator-livy
+        install： mvn install -DskipTests -pl '!integration-test'
+    kyuubi:
+        path: https://github.com/apache/kyuubi
+        install: mvn install -DskipTests
+    spring-boot:
+        path: https://github.com/spring-projects/spring-boot
+        install: ./gradlew build
+    spring-framework:
+        path: https://github.com/spring-projects/spring-framework
+        install: ./gradlew build
+    grpc-java:
+        path: https://github.com/grpc-/grpc-java
+        install: ./gradlew build -PskipAndroid=true -PskipCodegen=true
+openjdk-17:
+    druid:
+        path: https://github.com/apache/druid
+        install: mvn install -DskipTests
+    jboss:
+        path: https://github.com/wildfly/wildfly
+        install: mvn install -DskipTests
+    spring-cloud:
+        path: https://github.com/spring-cloud/spring-cloud-netflix
+        install: mvn install -DskipTests
+    fastjson:
+        path: https://github.com/alibaba/fastjson2
+        install：mvn clean install -Dfile.encoding=UTF-8
