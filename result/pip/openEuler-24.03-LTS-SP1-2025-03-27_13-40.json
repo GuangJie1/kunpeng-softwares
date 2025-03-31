@@ -1,29 +1,32 @@
 {
    "Title":"Installation results of kunpeng-related packages in PyPI.",
-   "Type":"pip",
+   "Type":"pypi",
    "Base":"openEuler-24.03-LTS-SP1",
    "Date":"2025-03-27 13:40:06",
    "Packages":[
-      {
-         "package":"click",
-         "version":"1.1.1",
-         "duration":"11",
-         "log":"${result_path}/pip/${Date}/click.log",
-         "status":"success"
-      },
-      {
-         "package":"flake8",
-         "version":"1.1.1",
-         "duration":"11",
-         "log":"${result_path}/pip/${Date}/flake8.log",
-         "status":"success"
-      },
-      {
-         "package":"xxx",
-         "version":"1.1.1",
-         "duration":"11",
-         "log":"${result_path}/pip/${Date}/xxx.log",
-         "status":"failed"
-      }
+	  {
+		 "package": "click",
+		 "version": "1.1.1",
+		 "duration": "11",
+		 "log": "https://xxx/com/xxx/pypi/${Date}/click.log",
+		 "status": "success",
+		 "homepage": "https://pypi.org/project/tensorflow/"
+	  },
+	  {
+		 "package": "flake8",
+		 "version": "1.1.1",
+		 "duration": "11",
+		 "log": "https://xxx/com/xxx/pypi/${Date}/flake8.log",
+		 "status": "success",
+		 "homepage": "https://pypi.org/project/flake8/"
+	  },
+	  {
+		 "package":"tensorflow",
+		 "version": "1.1.1",
+		 "duration": "11",
+		 "log": "https://xxx/com/xxx/pypi/${Date}/tensorflow.log",
+		 "status": "success",
+		 "homepage": "https://pypi.org/project/tensorflow/"
+	  }
    ]
 }
